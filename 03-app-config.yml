@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  namespace: env-setup
+  name: app-config
+data:
+  ingredient: Cheese

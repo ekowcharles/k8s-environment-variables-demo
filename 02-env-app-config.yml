@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  namespace: env-setup
+  name: env-app-config
+data:
+  INGREDIENT_1: Flour
