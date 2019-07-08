@@ -1,6 +1,6 @@
 # K8s Environment Variables Setup Demo
 
-This repo demonstrates all the four ways environment variables could be set as described in the blog post [here]().
+This repo demonstrates all the four ways environment variables could be set as described in the blog post [here](https://medium.com/@caboadu/environment-variables-4-ways-to-set-them-in-kubernetes-bc7c8ceb333d).
 
 ## Prerequisites
 
