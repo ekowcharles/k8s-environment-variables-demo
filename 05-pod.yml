@@ -14,6 +14,10 @@ spec:
           "echo ${WHERE}: ${MEAL} = ${INGREDIENT_1} + ${INGREDIENT_2} + ${INGREDIENT_3} && sleep 60",
         ]
       env:
+        - name: WHERE
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
         - name: MEAL
           value: Pizza
         - name: INGREDIENT_2
@@ -26,10 +30,6 @@ spec:
             secretKeyRef:
               name: app-secret
               key: ingredient
-        - name: WHERE
-          valueFrom:
-            fieldRef:
-              fieldPath: metadata.name
       envFrom:
         - configMapRef:
             name: env-app-config
