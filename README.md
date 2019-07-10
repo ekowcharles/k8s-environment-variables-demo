@@ -13,7 +13,7 @@ This example assumes the following:
 
 Run `make` to create all the resoures required in this demo.
 
-Run `make check` to output show the following output:
+Run `make check` to show the following output:
 
 ```
 app: Pizza = Flour + Cheese + Tomato
